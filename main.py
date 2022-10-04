@@ -1,4 +1,4 @@
-from func import FlatIterator2, flat_generator2, flat_generator
+from iters_generators import FlatIterator2, flat_generator2, flat_generator
 
 # Task 1. Итератор и генератор. 2 в 1.
 print('*'*20 + 'Task 1. Итератор двумерного списка' + '*'*20)
@@ -14,6 +14,7 @@ print()
 
 flat_list = [item for item in FlatIterator2(nested_list)]
 print(flat_list)
+
 
 
 # Task 2. Генератор двумерного списка отдельно.

@@ -24,3 +24,4 @@ def flat_generator(lst):
                 yield j
         else:
             yield i
+
